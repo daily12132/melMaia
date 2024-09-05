@@ -19,8 +19,13 @@ const config: Config = {
           '50%': { transform: 'scale(1)' },
           '100%': { transform: 'scale(.95)' },
         },
+        fadeIn: {
+          from: { transform: 'scale(0)', opacity: '0' },
+          to: { transform: 'scale(1)', opacity: '1' },
+        },
       },
       animation: {
+        fadeIn: 'fadeIn 1s ease-in-out',
         pulse: 'pulse 2s ease-in-out infinite',
       },
     },
