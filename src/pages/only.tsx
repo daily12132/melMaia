@@ -6,7 +6,7 @@ import Img2 from '../../public/only2.jpg'
 import Img3 from '../../public/im13.png'
 import { ArrowLeft, Share } from 'phosphor-react'
 import { useEffect, useState } from 'react'
-import Logo from '../../public/favicon.png'
+import Logo from '../../public/favicon.svg'
 import { FadeLoader } from 'react-spinners'
 import Blur from '../../public/blur.jpg'
 import Link from 'next/link'
@@ -32,7 +32,7 @@ export default function Home() {
         <title>MEL MAIA 🍯 - OnlyFans</title>
         <meta name="Teste" content="Teste" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <main
         className={`w-full min-h-screen mx-auto bg-white text-black ${fonte.className}`}
