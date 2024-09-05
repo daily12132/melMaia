@@ -52,10 +52,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Teste</title>
+        <title>
+          MEL MAIA 🍯 (@melissamelmaia) • Fotos e vídeos do Instagram
+        </title>
         <meta name="Teste" content="Teste" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/insta.png" />
       </Head>
       <main className={`w-full min-h-screen mx-auto ${fonte.className}`}>
         {modal && (
