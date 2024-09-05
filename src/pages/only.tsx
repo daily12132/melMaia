@@ -39,7 +39,7 @@ export default function Home() {
       >
         {loading ? (
           <div className="fixed w-full h-full flex flex-col justify-center gap-4 items-center">
-            <Image alt="logo" src={Logo} quality={100} width={96} />
+            <Image alt="logo" src={Logo} quality={100} width={126} />
             <FadeLoader />
           </div>
         ) : (
