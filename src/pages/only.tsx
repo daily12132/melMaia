@@ -17,7 +17,7 @@ const fonte = Roboto({
 })
 
 export default function Home() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
   const [selectPlan, setSelectPlan] = useState(false)
 
   useEffect(() => {

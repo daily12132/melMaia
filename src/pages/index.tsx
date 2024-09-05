@@ -62,7 +62,7 @@ export default function Home() {
       <main className={`w-full min-h-screen mx-auto ${fonte.className}`}>
         {modal && (
           <div className="fixed w-full h-full flex justify-center items-center">
-            <div className="w-[90%] bg-black p-5 rounded-e-xl">
+            <div className="w-[90%] bg-black p-5 rounded-xl">
               <div className="w-full flex items-center gap-2 mb-4">
                 <Image
                   alt="profile"
