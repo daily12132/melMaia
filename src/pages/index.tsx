@@ -175,7 +175,7 @@ export default function Home() {
                   | OF ⬇️ <span className="text-[#A8A8A8]">mais</span>
                 </p>
                 <p className="text-sm text-[#1977F2]">Ver tradução</p>
-                <a>https://onlyfans.com/melissamelmaia</a>
+                <Link href="/only">https://onlyfans.com/melissamelmaia</Link>
 
                 <div className="w-full flex items-center gap-2 mt-2">
                   <Image
